@@ -130,9 +130,55 @@ There are 5 Datatypes in javaScript
 
 // FUNCTION EXPRESSION
 
-const func1 = function (number){
-    return number * number
-}
+// const func1 = function (number){
+//     return number * number
+// }
 
-console.log(func1)
+// console.log(func1)
+
+//STRING
+
+let str = "Rushikesh"
+
+console.log(str.charAt(2))
+
+console.log(str.charCodeAt(4))
+
+console.log(str.codePointAt(3))
+
+console.log(str.concat(" Khaire"))
+
+console.log(str)
+
+console.log(str.endsWith('h'))
+
+console.log(str.includes('i'))
+
+console.log(str.indexOf('i'))
+
+console.log(str.lastIndexOf('h'))
+
+console.log(str.length)
+
+console.log(str.localeCompare('Rushikesh'))
+
+console.log(str.match(["rhejif", "Rushikesh"]))  //This is for the regular expression
+
+// console.log(str.search("Rushikesh"))
+
+// console.log(str.trimStart())
+
+// console.log(str.trimEnd())
+
+console.log(str.slice(3))
+
+console.log(str.repeat(2))
+
+
+let str2 = "India is my country"
+console.log(str2.split("Rus"))
+
+console.log(str.substring(3, 6))
+
+
 
